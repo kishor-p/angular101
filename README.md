@@ -1,2 +1,3 @@
-# angular101
-Angular examples
+Angular 101
+
+Contains angular examples and experiments.
