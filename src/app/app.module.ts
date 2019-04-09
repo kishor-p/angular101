@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { RootComponent } from './root/root.component';
 import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     RootComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule
