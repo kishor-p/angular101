@@ -7,17 +7,19 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { routeDefs } from './_utils/RoutingDefinitions';
+import { NgtemplateComponent } from './ngtemplate/ngtemplate.component';
 
 @NgModule({
   declarations: [
     RootComponent,
     HomeComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    NgtemplateComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule .forRoot(routeDefs),
+    RouterModule .forRoot(routeDefs, { useHash: true }),
   ],
   providers: [],
   bootstrap: [RootComponent]
